@@ -1,0 +1,61 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.first-div{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-div img{
+    width: 100px;
+}
+.first-div h1{
+    color: white;
+}
+.button{
+    background-color: black;
+    padding: 5px;
+    border: 2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.boxs img{
+    width: 250px;
+    height: 200px;
+    
+    
+}
+.boxs{
+    background-color:darkgray;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    position: relative;
+    top: 100px;
+}
+.boxs a{
+    top: 10px;
+    position: relative;
+}
+.boxs h2{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.boxs p{
+    color: white;
+}
